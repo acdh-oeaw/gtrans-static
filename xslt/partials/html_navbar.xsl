@@ -48,11 +48,10 @@
                                     </li>
                                 </ul>
                             </li>
-
-                            <li class="nav-item">
-                                <a title="Suche" class="nav-link" href="search.html">Suche</a>
-                            </li>
                         </ul>
+                        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                            <form class="d-flex" role="search" method="GET" action="search.html"><input class="form-control me-2" type="search" placeholder="Suchen" aria-label="Suchen" name="gtrans[query]"/><button class="btn btn-outline-success" type="submit">Suchen</button></form>
+                         </ul>
                     </div>
                 </div>
             </nav>
