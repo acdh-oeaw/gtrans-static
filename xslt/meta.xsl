@@ -24,8 +24,8 @@
             <body class="d-flex flex-column h-100">
             <xsl:call-template name="nav_bar"/>
                 <main class="flex-shrink-0 flex-grow-1">
-                    <div class="container">                        
-                        <h1><xsl:value-of select="$doc_title"/></h1>    
+                    <div class="container pt-3">                        
+                        <h1 class="display-2 text-center"><xsl:value-of select="$doc_title"/></h1>    
                         <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
                     </div>
                 </main>
@@ -33,12 +33,24 @@
             </body>
         </html>
     </xsl:template>
-
+    
+    <xsl:template match="tei:list">
+        <ul><xsl:apply-templates/></ul>
+    </xsl:template>
+    <xsl:template match="tei:item">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[@target]">
+        <a href="{@target}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
+    
     <xsl:template match="tei:p">
-        <p id="{generate-id()}"><xsl:apply-templates/></p>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:div">
-        <div id="{generate-id()}"><xsl:apply-templates/></div>
+        <div class="pt-3"><xsl:apply-templates/></div>
     </xsl:template>
     <xsl:template match="tei:lb">
         <br/>
@@ -48,5 +60,16 @@
     </xsl:template>
     <xsl:template match="tei:del">
         <del><xsl:apply-templates/></del>
-    </xsl:template>    
+    </xsl:template>
+    <xsl:template match="tei:head">
+        <xsl:variable name="level">
+            <xsl:value-of select="count(ancestor-or-self::tei:div)"/>
+        </xsl:variable>
+        <xsl:element name="{concat('h', $level + 1)}">
+            <xsl:attribute name="class">
+                <xsl:value-of select="'text-center pt-2'"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
 </xsl:stylesheet>
