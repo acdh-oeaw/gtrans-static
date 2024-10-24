@@ -117,15 +117,69 @@
                         </div>
                         <hr/>
                         <h2 class="text-center pt-3">Personen, Orte, Institutionen</h2>
-                        <div class="col-md-4">
-                            <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
+                        <div class="row">
+                            <div class="col-md-4">
                                 <dl>
-                                    <dt><xsl:value-of select="./tei:persName/tei:surname"/></dt>
+                                <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
+                                    
+                                        <dt>
+                                            <xsl:value-of select="./tei:persName/tei:surname"/><xsl:if test="./tei:persName/tei:forename/text()">, <xsl:value-of select="./tei:persName/tei:forename"/></xsl:if>
+                                            
+                                        </dt>
+                                        <dd>
+                                            <xsl:if test="./tei:birth/tei:placeName">
+                                                *<xsl:value-of select="./tei:birth/tei:placeName/text()"/>
+                                            </xsl:if><xsl:if test="./tei:birth[@when]">
+                                                <xsl:text>, </xsl:text><xsl:value-of select="./tei:birth/@when"/>
+                                            </xsl:if>
+                                        </dd>
+                                        <dd>
+                                            <xsl:if test="./tei:death/tei:placeName">
+                                                <xsl:text>†</xsl:text><xsl:value-of select="./tei:death/tei:placeName/text()"/>
+                                            </xsl:if>
+                                            <xsl:if test="./tei:death[@when]">
+                                                <xsl:text> </xsl:text><xsl:value-of select="./tei:death/@when"/>
+                                            </xsl:if>
+                                       </dd>
+                                        <dd>
+                                            <xsl:if test="./tei:idno">  <a href="{./tei:idno/text()}"><xsl:value-of select="./tei:idno"/></a></xsl:if>
+                                        </dd>
+                                </xsl:for-each>
                                 </dl>
-                            </xsl:for-each>
+                            </div>
+                            <div class="col-md-4">
+                                <dl>
+                                <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
+                                    <dt>
+                                        <xsl:value-of select="./tei:placeName"/>
+                                    </dt>
+                                    <dd>
+                                        <xsl:if test="./tei:idno">
+                                            <a href="{./tei:idno/text()}">
+                                                <xsl:value-of select="./tei:idno"/>
+                                            </a>
+                                        </xsl:if>
+                                    </dd>
+                                </xsl:for-each>
+                                </dl>
+                            </div>
+                            <div class="col-md-4">
+                                <dl>
+                                    <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
+                                        <dt>
+                                            <xsl:value-of select="./tei:orgName"/>
+                                        </dt>
+                                        <dd>
+                                            <xsl:if test="./tei:idno">
+                                                <a href="{./tei:idno/text()}">
+                                                    <xsl:value-of select="./tei:idno"/>
+                                                </a>
+                                            </xsl:if>
+                                        </dd>
+                                    </xsl:for-each>
+                                </dl>
+                            </div>
                         </div>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
                     </div>
                     
                 </main>

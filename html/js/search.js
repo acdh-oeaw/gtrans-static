@@ -112,7 +112,7 @@ search.addWidgets([
             header: 'Keywords',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-keywords ",
+        container: "#refinement-list-keywords",
         attribute: "keywords",
         searchable: true,
         showMore: true,
@@ -130,7 +130,7 @@ search.addWidgets([
             header: 'Art des Dokuments',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-doctypes ",
+        container: "#refinement-list-doctypes",
         attribute: "doctypes",
         searchable: true,
         showMore: true,
@@ -148,7 +148,7 @@ search.addWidgets([
             header: 'Archiv/Bibliothek',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-repositories ",
+        container: "#refinement-list-repositories",
         attribute: "repositories",
         searchable: true,
         showMore: true,
@@ -166,8 +166,26 @@ search.addWidgets([
             header: 'Persons',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-persons ",
+        container: "#refinement-list-persons",
         attribute: "persons.label",
+        searchable: true,
+        showMore: true,
+        showMoreLimit: 50,
+        limit: 10,
+        searchablePlaceholder: "Suche nach Personen",
+        cssClasses: DEFAULT_CSS_CLASSES,
+    }),
+
+    instantsearch.widgets.panel({
+        collapsed: ({ state }) => {
+            return state.query.length === 0;
+        },
+        templates: {
+            header: 'Persons',
+        },
+    })(instantsearch.widgets.refinementList)({
+        container: "#refinement-list-persons-id",
+        attribute: "persons.id",
         searchable: true,
         showMore: true,
         showMoreLimit: 50,
@@ -184,7 +202,7 @@ search.addWidgets([
             header: 'Orte',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-places ",
+        container: "#refinement-list-places",
         attribute: "places.label",
         searchable: true,
         showMore: true,
@@ -202,7 +220,7 @@ search.addWidgets([
             header: 'Institution',
         },
     })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-orgs ",
+        container: "#refinement-list-orgs",
         attribute: "orgs.label",
         searchable: true,
         showMore: true,
@@ -220,7 +238,7 @@ search.addWidgets([
     //         header: 'Terms',
     //     },
     // })(instantsearch.widgets.refinementList)({
-    //     container: "#refinement-list-term ",
+    //     container: "#refinement-list-term",
     //     attribute: "term",
     //     searchable: true,
     //     showMore: true,
