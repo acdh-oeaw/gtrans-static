@@ -21,7 +21,7 @@ for x in files:
     years.add(end[:4])
     if start and end:
         item = {
-            "date": start.replace("201", "191"),
+            "date": start,
             "label": doc.any_xpath(".//tei:title[1]")[0].text,
             "link": link,
             "kind": doc.any_xpath(".//tei:typeDesc")[0].text
