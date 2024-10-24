@@ -51,7 +51,7 @@ jobs:
       - name: Populate Search Index
         run: python make_ts_index.py
       - name: Calendar data
-        run: python make_clendar_data.py
+        run: python make_calendar_data.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
