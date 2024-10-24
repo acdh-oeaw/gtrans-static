@@ -28,6 +28,9 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
     </xsl:variable>
+    <xsl:variable name="searchstring">
+        <xsl:value-of select="'Suche nach Dokumenten mit '"/>
+    </xsl:variable>
 
 
     <xsl:template match="/">
@@ -101,6 +104,19 @@
                                             </a>
                                         </xsl:for-each>
                                     </dd>
+                                    <dt>Institutionen</dt>
+                                    <dd>
+                                        <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
+                                            
+                                            <a href="{concat('search.html?gtrans[refinementList][orgs.label][0]=', ./tei:orgName/text())}">
+                                                <span class="badge rounded-pill text-bg-light fs-5">
+                                                    <xsl:value-of select="./tei:orgName/text()"/>
+                                                </span>
+                                            </a>
+                                            
+                                        </xsl:for-each>
+                                    </dd>
+                                    
                                 </dl>
                             </div>
                             <div class="col-md-7">
@@ -116,16 +132,25 @@
                             
                         </div>
                         <hr/>
-                        <h2 class="text-center pt-3">Personen, Orte, Institutionen</h2>
+                        <h2 class="text-center pt-3">Personen und Orte</h2>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <dl>
-                                <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
-                                    
+                                <xsl:for-each select=".//tei:back//tei:person[@xml:id]">                                    
                                         <dt>
-                                            <xsl:value-of select="./tei:persName/tei:surname"/><xsl:if test="./tei:persName/tei:forename/text()">, <xsl:value-of select="./tei:persName/tei:forename"/></xsl:if>
-                                            
+                                            <xsl:value-of select="./tei:persName/@key"/>
+                                            <a class="ps-2" title="{concat($searchstring, ./tei:persName/@key)}" href="{concat('search.html?gtrans[refinementList][persons.label][0]=',./tei:persName/@key)}">
+                                                <i class="bi bi-search" aria-hidden="true"/>
+                                                <span class="visually-hidden">
+                                                    <xsl:value-of select="concat($searchstring, ./tei:persName/@key)"/>
+                                                </span>
+                                            </a>
                                         </dt>
+                                        <xsl:if test="./tei:persName/tei:roleName/text()">
+                                            <dd>
+                                                <xsl:value-of select="./tei:persName/tei:roleName"/>
+                                            </dd>
+                                        </xsl:if>
                                         <dd>
                                             <xsl:if test="./tei:birth/tei:placeName">
                                                 *<xsl:value-of select="./tei:birth/tei:placeName/text()"/>
@@ -147,11 +172,17 @@
                                 </xsl:for-each>
                                 </dl>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <dl>
                                 <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
                                     <dt>
                                         <xsl:value-of select="./tei:placeName"/>
+                                        <a class="ps-2" title="{concat($searchstring, ./tei:placeName/@key)}" href="{concat('search.html?gtrans[refinementList][places.label][0]=',./tei:placeName/@key)}">
+                                            <i class="bi bi-search" aria-hidden="true"/>
+                                            <span class="visually-hidden">
+                                                <xsl:value-of select="concat($searchstring, ./tei:placeName/@key)"/>
+                                            </span>
+                                        </a>
                                     </dt>
                                     <dd>
                                         <xsl:if test="./tei:idno">
@@ -163,22 +194,7 @@
                                 </xsl:for-each>
                                 </dl>
                             </div>
-                            <div class="col-md-4">
-                                <dl>
-                                    <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
-                                        <dt>
-                                            <xsl:value-of select="./tei:orgName"/>
-                                        </dt>
-                                        <dd>
-                                            <xsl:if test="./tei:idno">
-                                                <a href="{./tei:idno/text()}">
-                                                    <xsl:value-of select="./tei:idno"/>
-                                                </a>
-                                            </xsl:if>
-                                        </dd>
-                                    </xsl:for-each>
-                                </dl>
-                            </div>
+                            
                         </div>
                     </div>
                     

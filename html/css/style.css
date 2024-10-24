@@ -9,6 +9,11 @@ div#map {
     box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
 }
 
+dt {
+    margin-top: 1em;
+}
+
 dd {
 	margin-left: 1em;
+    margin-bottom: 0;
 }

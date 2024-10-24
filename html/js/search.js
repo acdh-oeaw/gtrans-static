@@ -181,24 +181,6 @@ search.addWidgets([
             return state.query.length === 0;
         },
         templates: {
-            header: 'Persons',
-        },
-    })(instantsearch.widgets.refinementList)({
-        container: "#refinement-list-persons-id",
-        attribute: "persons.id",
-        searchable: true,
-        showMore: true,
-        showMoreLimit: 50,
-        limit: 10,
-        searchablePlaceholder: "Suche nach Personen",
-        cssClasses: DEFAULT_CSS_CLASSES,
-    }),
-
-    instantsearch.widgets.panel({
-        collapsed: ({ state }) => {
-            return state.query.length === 0;
-        },
-        templates: {
             header: 'Orte',
         },
     })(instantsearch.widgets.refinementList)({

@@ -41,11 +41,7 @@
                                 <div id="refinement-list-places" class="pb-3"></div>
                                 <div id="refinement-list-orgs" class="pb-3"></div>
                                 <div id="refinement-list-repositories" class="pb-3"></div>
-                                <div id="refinement-list-doctypes" class="pb-3"></div>
-                                <div class="visually-hidden">
-                                    <div id="refinement-list-persons-id" class="pb-3"></div>
-                                </div>
-                                
+                                <div id="refinement-list-doctypes" class="pb-3"></div>                                  
                             </div>
                             <div class="col-md-9">
                                 <div id="pagination" class="p-3"/>
