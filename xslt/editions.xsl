@@ -44,9 +44,9 @@
             <body class="d-flex flex-column h-100">
                 <xsl:call-template name="nav_bar"/>
                 <main class="flex-shrink-0 flex-grow-1">
-                    <div class="container">
+                    <div class="container pt-3">
                         <div class="row">
-                            <div class="col-md-2 col-lg-2 col-sm-12 text-start">
+                            <div class="col-md-2 col-lg-2 col-sm-12 text-start pt-3">
                                 <xsl:if test="ends-with($prev,'.html')">
                                     <a>
                                         <xsl:attribute name="href">
@@ -59,7 +59,7 @@
                                 </xsl:if>
                             </div>
                             <div class="col-md-8 col-lg-8 col-sm-12 text-center">
-                                <h1>
+                                <h1 class="text-center p-3">
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                                 <div>
@@ -70,7 +70,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-lg-2 col-sm-12 text-start">
+                            <div class="col-md-2 col-lg-2 col-sm-12 text-end pt-3">
                                 <xsl:if test="ends-with($next, '.html')">
                                     <a>
                                         <xsl:attribute name="href">
