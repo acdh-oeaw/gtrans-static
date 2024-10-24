@@ -7,7 +7,7 @@
     version="2.0" exclude-result-prefixes="xsl tei xs local">
     <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
     
-    <xsl:import href="./partials/shared.xsl"/>
+
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
@@ -80,36 +80,54 @@
                                 </xsl:if>
                             </div>
                         </div>
-                        <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
-                        <p style="text-align:center;">
-                            <xsl:for-each select=".//tei:note[not(./tei:p)]">
-                                <div class="footnotes" id="{local:makeId(.)}">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="name">
-                                            <xsl:text>fn</xsl:text>
-                                            <xsl:number level="any" format="1" count="tei:note"/>
-                                        </xsl:attribute>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:text>#fna_</xsl:text>
-                                                <xsl:number level="any" format="1" count="tei:note"/>
-                                            </xsl:attribute>
-                                            <span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">
-                                                <xsl:number level="any" format="1" count="tei:note"/>
-                                            </span>
-                                        </a>
-                                    </xsl:element>
-                                    <xsl:apply-templates/>
-                                </div>
-                            </xsl:for-each>
-                        </p>
-
-                    </div>
-                    <xsl:for-each select="//tei:back">
-                        <div class="tei-back">
-                            <xsl:apply-templates/>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2>Zum Dokument</h2>
+                                <dl>
+                                    <dt>Archiv</dt>
+                                    <dd><xsl:value-of select=".//tei:msIdentifier/tei:repository"/></dd>
+                                    <dt>Bestand</dt>
+                                    <dd><xsl:value-of select=".//tei:msIdentifier/tei:msName"/></dd>
+                                    <dt>Art des Dokuments</dt>
+                                    <dd><xsl:value-of select=".//tei:typeDesc"/></dd>
+                                    <dt>Schlagworte</dt>
+                                    <dd>
+                                        <xsl:for-each select=".//tei:keywords">
+                                            <a href="{concat('search.html?gtrans[refinementList][keywords][0]=', .//text())}">
+                                                <span class="badge rounded-pill text-bg-light fs-5">
+                                                    <xsl:value-of select="."/>
+                                                    <xsl:text> </xsl:text>
+                                                </span>
+                                            </a>
+                                        </xsl:for-each>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-md-7">
+                                <h2>Zusammenfassung</h2>
+                                <p class="lead"><xsl:value-of select=".//tei:abstract"/></p>
+                                <xsl:for-each select=".//tei:editor">
+                                    <figcaption class="blockquote-footer text-end">
+                                        <xsl:value-of select="."/>
+                                    </figcaption>
+                                </xsl:for-each>
+                                
+                            </div>
+                            
                         </div>
-                    </xsl:for-each>
+                        <hr/>
+                        <h2 class="text-center pt-3">Personen, Orte, Institutionen</h2>
+                        <div class="col-md-4">
+                            <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
+                                <dl>
+                                    <dt><xsl:value-of select="./tei:persName/tei:surname"/></dt>
+                                </dl>
+                            </xsl:for-each>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    
                 </main>
                 <xsl:call-template name="html_footer"/>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"/>
