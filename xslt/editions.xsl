@@ -110,7 +110,14 @@
                                             
                                             <a href="{concat('search.html?gtrans[refinementList][orgs.label][0]=', ./tei:orgName/text())}">
                                                 <span class="badge rounded-pill text-bg-light fs-5">
-                                                    <xsl:value-of select="./tei:orgName/text()"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="string-length(./tei:orgName/text()) gt 40">
+                                                            <xsl:value-of select="concat(substring(./tei:orgName/text(), 1, 40), '... ')"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="./tei:orgName/text()"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </span>
                                             </a>
                                             
