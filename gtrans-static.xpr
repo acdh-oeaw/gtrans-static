@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/gtran-0646.xml</String>
+                                    <String>data/imprint.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>editions</String>
+                                        <String>toc</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -50,11 +50,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/imprint.xml</String>
+                                    <String>data/editions/gtran-0646.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>index</String>
+                                        <String>editions</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

@@ -24,6 +24,12 @@
             document.getElementById("download-html").addEventListener("click", function(){
             table.download("html", "data.html", {style:true});
             });
+
+            table.on("rowClick", function (e, row) {
+                var data = row.getData();
+                var url = `${data["linktodoc"]}.html`
+                window.open(url, "_self");
+            });
         </script>
     </xsl:template>
 </xsl:stylesheet>

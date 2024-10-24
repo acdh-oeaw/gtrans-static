@@ -28,27 +28,27 @@
             <xsl:call-template name="nav_bar"/>
                 <main class="flex-shrink-0 flex-grow-1">
                     <div class="container">
-                        <h1>Inhaltsverzeichnis</h1>
+                        <h1 class="display-3 pt-3 text-center">Inhaltsverzeichnis</h1>
                         <table id="myTable">
                             <thead>
                                 <tr>
                                     <th scope="col" width="20" tabulator-formatter="html" tabulator-headerSort="false" tabulator-download="false">#</th>
                                     <th scope="col" tabulator-headerFilter="input">Titel</th>
-                                    <th scope="col" tabulator-headerFilter="input">Dateinname</th>
+                                    <th scope="col" tabulator-headerSort="false" tabulator-download="false" tabulator-visible="false">linktodoc</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <xsl:for-each
                                     select="collection('../data/editions?select=*.xml')//tei:TEI">
                                     <xsl:variable name="full_path">
-                                        <xsl:value-of select="document-uri(/)"/>
+                                        <xsl:value-of select="./@xml:id"/>
                                     </xsl:variable>
                                     <tr>
                                         <td>
                                             <a>
                                                 <xsl:attribute name="href">
                                                   <xsl:value-of
-                                                  select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"
+                                                  select="replace($full_path, '.xml', '.html')"
                                                   />
                                                 </xsl:attribute>
                                                 <i class="bi bi-link-45deg"/>
@@ -59,8 +59,7 @@
                                                 select=".//tei:titleStmt/tei:title[1]/text()"/>
                                         </td>
                                         <td>
-                                            <xsl:value-of select="tokenize($full_path, '/')[last()]"
-                                            />
+                                            <xsl:value-of select="replace($full_path, '.xml', '')"/>
                                         </td>
                                     </tr>
                                 </xsl:for-each>
