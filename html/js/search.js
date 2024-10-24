@@ -43,7 +43,7 @@ search.addWidgets([
     instantsearch.widgets.searchBox({
         container: "#searchbox",
         autofocus: true,
-        placeholder: 'Search',
+        placeholder: 'Suchen',
         cssClasses: {
             form: "form-inline",
             input: "form-control col-md-11",
@@ -109,7 +109,7 @@ search.addWidgets([
             return state.query.length === 0;
         },
         templates: {
-            header: 'Keywords',
+            header: 'Schlagwörter',
         },
     })(instantsearch.widgets.refinementList)({
         container: "#refinement-list-keywords",
@@ -163,7 +163,7 @@ search.addWidgets([
             return state.query.length === 0;
         },
         templates: {
-            header: 'Persons',
+            header: 'Personen',
         },
     })(instantsearch.widgets.refinementList)({
         container: "#refinement-list-persons",

@@ -35,7 +35,7 @@
                         
                         <div class="row">
                             <div class="col-md-3">
-                                <h2>Facets</h2>
+                                <h2>Filter</h2>
                                 <div id="refinement-list-keywords" class="pb-3"></div>
                                 <div id="refinement-list-persons" class="pb-3"></div>
                                 <div id="refinement-list-places" class="pb-3"></div>

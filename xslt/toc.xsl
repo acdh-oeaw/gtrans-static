@@ -33,7 +33,9 @@
                             <thead>
                                 <tr>
                                     <th scope="col" width="20" tabulator-formatter="html" tabulator-headerSort="false" tabulator-download="false">#</th>
-                                    <th scope="col" tabulator-headerFilter="input">Titel</th>
+                                    <th scope="col" tabulator-formatter="textarea" tabulator-minWidth="350" tabulator-headerFilter="input">Titel</th>
+                                    <th scope="col" tabulator-formatter="textarea" tabulator-headerFilter="input">Archiv</th>
+                                    <th scope="col" tabulator-formatter="textarea" tabulator-headerFilter="input">Schlagworte</th>
                                     <th scope="col" tabulator-headerSort="false" tabulator-download="false" tabulator-visible="false">linktodoc</th>
                                 </tr>
                             </thead>
@@ -56,7 +58,13 @@
                                         </td>
                                         <td>
                                             <xsl:value-of
-                                                select=".//tei:titleStmt/tei:title[1]/text()"/>
+                                                select="normalize-space(.//tei:titleStmt/tei:title[1]/text())"/>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of select=".//tei:msIdentifier/tei:repository"/>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of select="string-join(.//tei:keywords/text(), ', ' )"></xsl:value-of>
                                         </td>
                                         <td>
                                             <xsl:value-of select="replace($full_path, '.xml', '')"/>

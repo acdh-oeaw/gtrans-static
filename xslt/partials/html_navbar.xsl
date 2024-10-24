@@ -31,10 +31,10 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="toc.html">Editionseinheiten</a>
+                                <a class="nav-link" href="toc.html">Dokumente</a>
                             </li>
 
-                            <li class="nav-item dropdown disabled">
+                            <!-- <li class="nav-item dropdown disabled">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Register</a>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -47,7 +47,7 @@
                                         <a class="dropdown-item" href="listorg.html">Organisationen</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                         <ul class="navbar-nav me-2 mb-2 mb-lg-0">
                             <form class="d-flex" role="search" method="GET" action="search.html"><input class="form-control me-2" type="search" placeholder="Suchen" aria-label="Suchen" name="gtrans[query]"/><button class="btn btn-outline-success" type="submit">Suchen</button></form>
