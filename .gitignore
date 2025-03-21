@@ -1,6 +1,7 @@
 # project specific
 *.html
 html/*.xml
+/html/oai-pmh
 /saxon
 data/imprint.xml
 
