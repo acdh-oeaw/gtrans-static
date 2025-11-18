@@ -12,3 +12,6 @@ rm -rf ./gtrans-data-main
 
 echo "fetch imprint"
 ./shellscripts/dl_imprint.sh
+
+echo "add mentions to listperson.xml"
+uv run pyscripts/entities.py

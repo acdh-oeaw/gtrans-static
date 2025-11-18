@@ -1,5 +1,8 @@
 #FORMAT: BEACON
 #NAME:Die Große Transformation
+https://d-nb.info/gnd/1014062276|Reumann, Jakob|https://gtrans.acdh.oeaw.ac.at/person__821.html
+https://d-nb.info/gnd/1121689876|Schorsch, Johann|https://gtrans.acdh.oeaw.ac.at/person__843.html
+https://d-nb.info/gnd/118804022|Vaugoin, Karl|https://gtrans.acdh.oeaw.ac.at/person__891.html
 https://d-nb.info/gnd/118902830|Dinghofer, Franz|https://gtrans.acdh.oeaw.ac.at/person__635.html
 https://d-nb.info/gnd/118709178|Hauser, Johann Nepomuk|https://gtrans.acdh.oeaw.ac.at/person__690.html
 https://d-nb.info/gnd/118726110|Lammasch, Heinrich|https://gtrans.acdh.oeaw.ac.at/person__750.html
@@ -7,22 +10,30 @@ https://d-nb.info/gnd/118783882|Miklas, Wilhelm|https://gtrans.acdh.oeaw.ac.at/p
 https://d-nb.info/gnd/118831240|Ofner, Julius|https://gtrans.acdh.oeaw.ac.at/person__786.html
 https://d-nb.info/gnd/118599739|Renner, Karl|https://gtrans.acdh.oeaw.ac.at/person__820.html
 https://d-nb.info/gnd/128662638|Seliger, Josef|https://gtrans.acdh.oeaw.ac.at/person__3270.html
+https://d-nb.info/gnd/122461584|Hein, Oskar|https://gtrans.acdh.oeaw.ac.at/person__692.html
+https://d-nb.info/gnd/1361359269|Moißl, Alois|https://gtrans.acdh.oeaw.ac.at/person__774.html
+https://d-nb.info/gnd/129263745|Scheu, Gustav|https://gtrans.acdh.oeaw.ac.at/person__833.html
+https://d-nb.info/gnd/118608606|Schmid, Heinrich|https://gtrans.acdh.oeaw.ac.at/person__836.html
+https://d-nb.info/gnd/128014466|Stangelberger, Franz|https://gtrans.acdh.oeaw.ac.at/person__869.html
 https://d-nb.info/gnd/117278602|Weiskirchner, Richard|https://gtrans.acdh.oeaw.ac.at/person__903.html
-https://de.wikipedia.org/wiki/Alfred_Rudolph_Zimmerman|Zimmermann, Alfred Rudolph|https://gtrans.acdh.oeaw.ac.at/person__3329.html
+https://d-nb.info/gnd/133794962|Zimmermann, Alfred Rudolph|https://gtrans.acdh.oeaw.ac.at/person__3329.html
 https://d-nb.info/gnd/1027122671|Teufel, Oskar|https://gtrans.acdh.oeaw.ac.at/person__879.html
 https://d-nb.info/gnd/1113900385|Tomschik, Josef|https://gtrans.acdh.oeaw.ac.at/person__884.html
-https://de.wikipedia.org/wiki/Ludwig_Biber|Biber, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__612.html
+https://d-nb.info/gnd/12796827X|Schrott|https://gtrans.acdh.oeaw.ac.at/person__953.html
+https://d-nb.info/gnd/1255161639|Biber, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__612.html
 https://d-nb.info/gnd/129085804|Kienböck, Viktor|https://gtrans.acdh.oeaw.ac.at/person__728.html
 https://d-nb.info/gnd/118725432|Kunschak, Leopold|https://gtrans.acdh.oeaw.ac.at/person__746.html
 https://d-nb.info/gnd/118523643|Danneberg, Robert|https://gtrans.acdh.oeaw.ac.at/person__631.html
 https://d-nb.info/gnd/120009889|Fink, Jodok|https://gtrans.acdh.oeaw.ac.at/person__3341.html
 https://d-nb.info/gnd/119184745|Seitz, Karl|https://gtrans.acdh.oeaw.ac.at/person__856.html
-https://de.wikipedia.org/wiki/Adolf_von_Boog|von Boog, Adolf|https://gtrans.acdh.oeaw.ac.at/person__924.html
+https://d-nb.info/gnd/1314980769|von Boog, Adolf|https://gtrans.acdh.oeaw.ac.at/person__924.html
 https://de.wikipedia.org/wiki/Julius_Bermann|Bermann, Julius|https://gtrans.acdh.oeaw.ac.at/person__610.html
 https://d-nb.info/gnd/119179504|Breitner, Hugo|https://gtrans.acdh.oeaw.ac.at/person__620.html
 https://de.wikipedia.org/wiki/Georg_Emmerling|Emmerling, Georg|https://gtrans.acdh.oeaw.ac.at/person__643.html
-https://de.wikipedia.org/wiki/Quirin_Kokrda|Kokrda, Quirin|https://gtrans.acdh.oeaw.ac.at/person__732.html
+https://d-nb.info/gnd/1123817537|Kokrda, Quirin|https://gtrans.acdh.oeaw.ac.at/person__732.html
 https://de.wikipedia.org/wiki/Julius_Linder|Linder, Julius|https://gtrans.acdh.oeaw.ac.at/person__755.html
+https://d-nb.info/gnd/1026394910|Pölzer, Amalie|https://gtrans.acdh.oeaw.ac.at/person__804.html
+https://d-nb.info/gnd/133807649|Wilfling, August|https://gtrans.acdh.oeaw.ac.at/person__910.html
 https://d-nb.info/gnd/118507346|Bauer, Otto|https://gtrans.acdh.oeaw.ac.at/person__608.html
 https://d-nb.info/gnd/14403347X|Forstner, August|https://gtrans.acdh.oeaw.ac.at/person__652.html
 https://d-nb.info/gnd/120148269|Steinwender, Otto|https://gtrans.acdh.oeaw.ac.at/person__872.html
@@ -41,48 +52,64 @@ https://d-nb.info/gnd/118701460|Hanusch, Ferdinand|https://gtrans.acdh.oeaw.ac.a
 https://d-nb.info/gnd/1037481208|Wichtl, Friedrich|https://gtrans.acdh.oeaw.ac.at/person__907.html
 https://books.google.at/books?id=EVbPAQAAQBAJ&amp;pg=RA1-PR86&amp;lpg=RA1-PR86&amp;dq=%22Julius+Hold%22+%C3%B6sterreich&amp;source=bl&amp;ots=X5OaJEQFeQ&amp;sig=vMy34hU8EHv6TfuEg3IVNGA-F_Q&amp;hl=de&amp;sa=X&amp;ved=2ahUKEwjD5YeT-qDfAhVkMOwKHYYdC3kQ6AEwCnoECAcQAQ#v=onepage&amp;q=%22Julius%20Hold%22%20%C3%B6sterreich&amp;f=false|Hold, Julius|https://gtrans.acdh.oeaw.ac.at/person__3323.html
 https://de.wikipedia.org/wiki/Oskar_Janicki|Janicki, Oskar|https://gtrans.acdh.oeaw.ac.at/person__3320.html
-https://de.wikipedia.org/wiki/Viktor_Kolassa|Kolassa, Viktor|https://gtrans.acdh.oeaw.ac.at/person__3318.html
+https://d-nb.info/gnd/1272434346|Kolassa, Viktor|https://gtrans.acdh.oeaw.ac.at/person__3318.html
 https://books.google.at/books?id=zURYAAAAYAAJ&amp;q=Leth+Adolf&amp;dq=Leth+Adolf&amp;hl=de&amp;sa=X&amp;ved=0ahUKEwi9pf2e_KDfAhUGLVAKHUcBAaMQ6AEIRzAG|Leth, Adolf|https://gtrans.acdh.oeaw.ac.at/person__3322.html
 https://de.wikipedia.org/wiki/Otto_Lutz_(Politiker)|Lutz, Otto|https://gtrans.acdh.oeaw.ac.at/person__3321.html
-https://de.wikipedia.org/wiki/Ignaz_Seipel|Seipel, Ignaz|https://gtrans.acdh.oeaw.ac.at/person__3319.html
+https://d-nb.info/gnd/11861293X|Seipel, Ignaz|https://gtrans.acdh.oeaw.ac.at/person__3319.html
 https://d-nb.info/gnd/1072422069|Freißler, Robert|https://gtrans.acdh.oeaw.ac.at/person__656.html
 https://d-nb.info/gnd/118743724|Redlich, Josef|https://gtrans.acdh.oeaw.ac.at/person__815.html
 https://d-nb.info/gnd/118678027|Deutsch, Julius|https://gtrans.acdh.oeaw.ac.at/person__634.html
 https://de.wikipedia.org/wiki/Leopold_Doppler|Doppler, Leopold|https://gtrans.acdh.oeaw.ac.at/person__637.html
+https://d-nb.info/gnd/1327661691|Gröbner, Johann|https://gtrans.acdh.oeaw.ac.at/person__671.html
 https://de.wikipedia.org/wiki/Julius_Gr%C3%BCnwald|Grünwald, Julius|https://gtrans.acdh.oeaw.ac.at/person__678.html
+https://d-nb.info/gnd/1019309229|Pokorny, Johann|https://gtrans.acdh.oeaw.ac.at/person__802.html
+https://d-nb.info/gnd/1158270682|Täubler, Alexander|https://gtrans.acdh.oeaw.ac.at/person__877.html
+https://d-nb.info/gnd/120010577|Walter, Gabriele|https://gtrans.acdh.oeaw.ac.at/person__899.html
 https://d-nb.info/gnd/118176595|Herrmann von Herrnritt, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__698.html
-https://de.wikipedia.org/wiki/Viktor_Waldner|Waldner, Viktor|https://gtrans.acdh.oeaw.ac.at/person__896.html
+https://d-nb.info/gnd/1207042226|Waldner, Viktor|https://gtrans.acdh.oeaw.ac.at/person__896.html
 https://d-nb.info/gnd/1013678079|Wolf, Karl Hermann|https://gtrans.acdh.oeaw.ac.at/person__916.html
 https://d-nb.info/gnd/118743732|Redlich, Oswald|https://gtrans.acdh.oeaw.ac.at/person__816.html
+https://d-nb.info/gnd/118608606|Schmid, Karl|https://gtrans.acdh.oeaw.ac.at/person__837.html
 https://de.wikipedia.org/wiki/Johann_Gion|Gion, Johann|https://gtrans.acdh.oeaw.ac.at/person__662.html
 https://d-nb.info/gnd/118707663|Hueber, Anton|https://gtrans.acdh.oeaw.ac.at/person__711.html
+https://d-nb.info/gnd/1147998264|Widholz, Laurenz|https://gtrans.acdh.oeaw.ac.at/person__908.html
+https://d-nb.info/gnd/117419524|Schwer, Hans Arnold|https://gtrans.acdh.oeaw.ac.at/person__851.html
 https://de.wikipedia.org/wiki/Richard_Marckhl|Marckhl, Richard|https://gtrans.acdh.oeaw.ac.at/person__762.html
 https://d-nb.info/gnd/132512246|Fränkel, Sigmund|https://gtrans.acdh.oeaw.ac.at/person__654.html
 https://d-nb.info/gnd/126430055|Honay, Karl|https://gtrans.acdh.oeaw.ac.at/person__707.html
-https://de.wikipedia.org/wiki/Leopold_Waber|Waber, Leopold|https://gtrans.acdh.oeaw.ac.at/person__3334.html
+https://d-nb.info/gnd/130170429|Waber, Leopold|https://gtrans.acdh.oeaw.ac.at/person__3334.html
 https://d-nb.info/gnd/116552980|Brockhausen, Carl|https://gtrans.acdh.oeaw.ac.at/person__622.html
 https://de.wikipedia.org/wiki/Gustav_Bodirsky|Bodirsky, Gustav|https://gtrans.acdh.oeaw.ac.at/person__616.html
 https://d-nb.info/gnd/118529978|Ellenbogen, Wilhelm|https://gtrans.acdh.oeaw.ac.at/person__641.html
 https://d-nb.info/gnd/101886573X|Iro, Karl|https://gtrans.acdh.oeaw.ac.at/person__712.html
 https://d-nb.info/gnd/119034913|Schoepfer, Aemilian|https://gtrans.acdh.oeaw.ac.at/person__842.html
+https://d-nb.info/gnd/131829742|Grün, Heinrich|https://gtrans.acdh.oeaw.ac.at/person__676.html
 https://de.wikipedia.org/wiki/Gisela_Wozniczak|Laferl, Gisela|https://gtrans.acdh.oeaw.ac.at/person__749.html
 https://d-nb.info/gnd/104176913X|Angeli, Hans|https://gtrans.acdh.oeaw.ac.at/person__601.html
-https://de.wikipedia.org/wiki/Karl_Angermayer|Angermayer, Karl|https://gtrans.acdh.oeaw.ac.at/person__602.html
+https://d-nb.info/gnd/1074530241|Angermayer, Karl|https://gtrans.acdh.oeaw.ac.at/person__602.html
 https://de.wikipedia.org/wiki/Johann_Alfred_Breuer|Breuer, Johann Alfred|https://gtrans.acdh.oeaw.ac.at/person__621.html
 https://d-nb.info/gnd/118516574|Bucharin, Nikolaj Ivanovič|https://gtrans.acdh.oeaw.ac.at/person__3895.html
 https://d-nb.info/gnd/143987941|Ellend, Bernhard|https://gtrans.acdh.oeaw.ac.at/person__642.html
+https://d-nb.info/gnd/1124266968|Fischer, Ignaz|https://gtrans.acdh.oeaw.ac.at/person__650.html
+https://d-nb.info/gnd/132667371|Hödl, Josef|https://gtrans.acdh.oeaw.ac.at/person__703.html
 https://de.wikipedia.org/wiki/Franz_Ho%C3%9F|Hoß, Franz|https://gtrans.acdh.oeaw.ac.at/person__709.html
 https://d-nb.info/gnd/118560808|Kautsky, Karl|https://gtrans.acdh.oeaw.ac.at/person__3891.html
 https://d-nb.info/gnd/118578537|Marx, Karl|https://gtrans.acdh.oeaw.ac.at/person__3893.html
+https://d-nb.info/gnd/1028828276|Rummelhardt, Karl|https://gtrans.acdh.oeaw.ac.at/person__831.html
+https://d-nb.info/gnd/127977279|Seitz, Alma|https://gtrans.acdh.oeaw.ac.at/person__855.html
 https://d-nb.info/gnd/118629743|Weber, Max|https://gtrans.acdh.oeaw.ac.at/person__3889.html
+https://d-nb.info/gnd/1035349973|Spängler, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__866.html
 https://d-nb.info/gnd/118560077|Habsburg-Lothringen, Karl|https://gtrans.acdh.oeaw.ac.at/person__724.html
 https://d-nb.info/gnd/117232416|Sternberg (?), Adalbert Wenzel (?)|https://gtrans.acdh.oeaw.ac.at/person__873.html
 https://d-nb.info/gnd/1047396122|Brügel, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__624.html
 https://d-nb.info/gnd/127743820|Jerzabek, Anton|https://gtrans.acdh.oeaw.ac.at/person__718.html
+https://d-nb.info/gnd/1156960576|Halusa, Josef Kuno|https://gtrans.acdh.oeaw.ac.at/person__3247.html
 https://d-nb.info/gnd/1012922529|Jukel, Carl|https://gtrans.acdh.oeaw.ac.at/person__720.html
 https://de.wikipedia.org/wiki/Otto_Kroy|Kroy, Otto|https://gtrans.acdh.oeaw.ac.at/person__744.html
+https://d-nb.info/gnd/116000899|Zweig, Egon|https://gtrans.acdh.oeaw.ac.at/person__923.html
 https://d-nb.info/gnd/1020242728|Mayer, Josef|https://gtrans.acdh.oeaw.ac.at/person__767.html
 https://d-nb.info/gnd/126181365|Davy, Robert Franz Ludwig|https://gtrans.acdh.oeaw.ac.at/person__633.html
+https://d-nb.info/gnd/140333665|Hödl, Richard|https://gtrans.acdh.oeaw.ac.at/person__704.html
 https://d-nb.info/gnd/117503622|Kaup, Ignaz|https://gtrans.acdh.oeaw.ac.at/person__3630.html
 https://d-nb.info/gnd/118728709|Lodgman, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__756.html
 https://d-nb.info/gnd/118695452|Glöckel, Otto|https://gtrans.acdh.oeaw.ac.at/person__664.html
@@ -90,41 +117,61 @@ https://de.wikipedia.org/wiki/Johann_Zerdik|Zerdik, Johann|https://gtrans.acdh.o
 https://d-nb.info/gnd/1013269179|Keschmann, Anton|https://gtrans.acdh.oeaw.ac.at/person__727.html
 https://d-nb.info/gnd/100859666|Reisch, Richard|https://gtrans.acdh.oeaw.ac.at/person__3849.html
 https://d-nb.info/gnd/126564442|Machat, Anton|https://gtrans.acdh.oeaw.ac.at/person__760.html
+https://d-nb.info/gnd/103347374X|Schwarz-Hiller, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__850.html
 https://d-nb.info/gnd/117532541|Riedl, Richard|https://gtrans.acdh.oeaw.ac.at/person__824.html
-https://de.wikipedia.org/wiki/Marie_Bock_(Politikerin)|Bock, Marie|https://gtrans.acdh.oeaw.ac.at/person__615.html
+https://d-nb.info/gnd/126213534|Bock, Marie|https://gtrans.acdh.oeaw.ac.at/person__615.html
 https://d-nb.info/gnd/137683693|Freundlich, Emmy|https://gtrans.acdh.oeaw.ac.at/person__659.html
+https://d-nb.info/gnd/1023794381|Jorde, Julius|https://gtrans.acdh.oeaw.ac.at/person__719.html
+https://d-nb.info/gnd/118595792|Popp, Adelheid|https://gtrans.acdh.oeaw.ac.at/person__806.html
+https://d-nb.info/gnd/120740729|Proft, Gabriele|https://gtrans.acdh.oeaw.ac.at/person__808.html
+https://d-nb.info/gnd/1344399436|Kohler|https://gtrans.acdh.oeaw.ac.at/person__3695.html
+https://d-nb.info/gnd/1033880191|Pauernfeindt|https://gtrans.acdh.oeaw.ac.at/person__3641.html
 https://de.wikipedia.org/wiki/Alois_Bauer_(Politiker,_1879)|Bauer, Alois|https://gtrans.acdh.oeaw.ac.at/person__607.html
 https://d-nb.info/gnd/110565754X|Hedorfer, Florian|https://gtrans.acdh.oeaw.ac.at/person__691.html
+https://d-nb.info/gnd/1295224887|Rehak, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__818.html
 https://d-nb.info/gnd/120148595|Sylvester, Julius|https://gtrans.acdh.oeaw.ac.at/person__875.html
 https://d-nb.info/gnd/1017758808|Kurzbauer, Josefine|https://gtrans.acdh.oeaw.ac.at/person__748.html
 https://tools.wmflabs.org/persondata/p/Friedrich_Lehne_von_Lehnsheim|Lehne von, Friedrich|https://gtrans.acdh.oeaw.ac.at/person__939.html
-https://de.wikipedia.org/wiki/Johann_L%C3%B6wenfeld-Russ|Loewenfeld-Russ, Johann|https://gtrans.acdh.oeaw.ac.at/person__936.html
+https://d-nb.info/gnd/118813692|Loewenfeld-Russ, Johann|https://gtrans.acdh.oeaw.ac.at/person__936.html
 https://d-nb.info/gnd/118577867|Maria Theresia, Maria Theresia|https://gtrans.acdh.oeaw.ac.at/person__3501.html
 https://d-nb.info/gnd/129263958|Steinbach, Emil Robert Wilhelm|https://gtrans.acdh.oeaw.ac.at/person__3505.html
+https://d-nb.info/gnd/126227209|Brabbée, Richard|https://gtrans.acdh.oeaw.ac.at/person__619.html
 https://d-nb.info/gnd/1111041954|Lasch, Eduard|https://gtrans.acdh.oeaw.ac.at/person__752.html
+https://d-nb.info/gnd/1037883454|Masopust, Josef|https://gtrans.acdh.oeaw.ac.at/person__763.html
 https://d-nb.info/gnd/126365792|Kandl, Hermann|https://gtrans.acdh.oeaw.ac.at/person__3337.html
-https://de.wikipedia.org/wiki/Hans_Sch%C3%BCrff|Schürff, Hans|https://gtrans.acdh.oeaw.ac.at/person__3335.html
-https://de.wikipedia.org/wiki/Sepp_Straffner|Straffner, Sepp|https://gtrans.acdh.oeaw.ac.at/person__3336.html
+https://d-nb.info/gnd/1033101540|Schürff, Hans|https://gtrans.acdh.oeaw.ac.at/person__3335.html
+https://d-nb.info/gnd/132773074|Straffner, Sepp|https://gtrans.acdh.oeaw.ac.at/person__3336.html
 https://d-nb.info/gnd/103933921|Pflügl, Egon|https://gtrans.acdh.oeaw.ac.at/person__797.html
 https://d-nb.info/gnd/102127108X|Hierhammer, Heinrich|https://gtrans.acdh.oeaw.ac.at/person__700.html
 https://d-nb.info/gnd/118647075|Adler, Victor|https://gtrans.acdh.oeaw.ac.at/person__597.html
 https://d-nb.info/gnd/12428034X|Andrássy von, Gyula|https://gtrans.acdh.oeaw.ac.at/person__3411.html
 https://d-nb.info/gnd/11907611X|Hartmann, Ludo|https://gtrans.acdh.oeaw.ac.at/person__3348.html
+https://d-nb.info/gnd/118534068|von Flotow, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__942.html
 https://d-nb.info/gnd/1025804953|Pesta, Karl|https://gtrans.acdh.oeaw.ac.at/person__795.html
 https://d-nb.info/gnd/1011403358|Guggenberg von, Atanas|https://gtrans.acdh.oeaw.ac.at/person__681.html
+https://d-nb.info/gnd/1024714837|Odehnal, Franz|https://gtrans.acdh.oeaw.ac.at/person__785.html
+https://d-nb.info/gnd/1026198755|Plaschkes, Leopold|https://gtrans.acdh.oeaw.ac.at/person__800.html
 https://d-nb.info/gnd/12770017X|Langenhan von, Philipp|https://gtrans.acdh.oeaw.ac.at/person__751.html
+https://d-nb.info/gnd/128287152|von Vittorelli, Paul|https://gtrans.acdh.oeaw.ac.at/person__935.html
 https://de.wikipedia.org/wiki/Rudolf_Heine|Heine, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__693.html
 https://d-nb.info/gnd/118643401|Wilson, Woodrow Thomas|https://gtrans.acdh.oeaw.ac.at/person__911.html
+https://d-nb.info/gnd/136784062|Hohensinner, Oswald|https://gtrans.acdh.oeaw.ac.at/person__706.html
 https://d-nb.info/gnd/126417598|Eldersch, Matthias|https://gtrans.acdh.oeaw.ac.at/person__640.html
+https://d-nb.info/gnd/127775331|Hötzel|https://gtrans.acdh.oeaw.ac.at/person__3839.html
 https://d-nb.info/gnd/118758802|Schober, Johannes|https://gtrans.acdh.oeaw.ac.at/person__3822.html
+https://d-nb.info/gnd/1038761417|Callenberg von, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__3379.html
 https://d-nb.info/gnd/127516395|Hennet, Leopold|https://gtrans.acdh.oeaw.ac.at/person__3350.html
+https://d-nb.info/gnd/135443016|Karrer, Bruno|https://gtrans.acdh.oeaw.ac.at/person__3353.html
 https://d-nb.info/gnd/118562878|Klein, Franz|https://gtrans.acdh.oeaw.ac.at/person__3315.html
+https://d-nb.info/gnd/136053904|Klimburg von, Otto|https://gtrans.acdh.oeaw.ac.at/person__3376.html
 https://d-nb.info/gnd/136602282|Kuh-Chrobak, Paul|https://gtrans.acdh.oeaw.ac.at/person__745.html
+https://d-nb.info/gnd/133661733|Löwenthal von, Josef|https://gtrans.acdh.oeaw.ac.at/person__3374.html
 https://d-nb.info/gnd/120336006|Marek, Ferdinand|https://gtrans.acdh.oeaw.ac.at/person__3362.html
 https://d-nb.info/gnd/119189518|Somary, Felix|https://gtrans.acdh.oeaw.ac.at/person__3356.html
 https://d-nb.info/gnd/133790649|Tusar, Vlastimil|https://gtrans.acdh.oeaw.ac.at/person__887.html
 https://d-nb.info/gnd/1011704021|Heilinger, Alois|https://gtrans.acdh.oeaw.ac.at/person__3571.html
 https://d-nb.info/gnd/104764827X|Neumann-Walter, Wilhelm|https://gtrans.acdh.oeaw.ac.at/person__3572.html
+https://d-nb.info/gnd/1013094328|Kanik, Franz|https://gtrans.acdh.oeaw.ac.at/person__941.html
 https://d-nb.info/gnd/1028650574|Wiesner von, Friedrich|https://gtrans.acdh.oeaw.ac.at/person__3406.html
 https://d-nb.info/gnd/116137096|Bernatzik, Edmund|https://gtrans.acdh.oeaw.ac.at/person__3297.html
 https://d-nb.info/gnd/118561219|Kelsen, Hans|https://gtrans.acdh.oeaw.ac.at/person__3293.html
@@ -137,19 +184,40 @@ https://d-nb.info/gnd/1023211718|Hofmann von, Paul|https://gtrans.acdh.oeaw.ac.a
 https://d-nb.info/gnd/1073552101|Abram, Simon|https://gtrans.acdh.oeaw.ac.at/person__596.html
 https://d-nb.info/gnd/1019770406|Luksch, Josef|https://gtrans.acdh.oeaw.ac.at/person__758.html
 https://d-nb.info/gnd/131556789|Hoheisl, Konrad|https://gtrans.acdh.oeaw.ac.at/person__705.html
-https://de.wikipedia.org/wiki/Josef_Hammerschmid|Hammerschmid, Josef|https://gtrans.acdh.oeaw.ac.at/person__687.html
+https://d-nb.info/gnd/125883404|Aigner, Artur|https://gtrans.acdh.oeaw.ac.at/person__598.html
+https://d-nb.info/gnd/1243890169|Czermak|https://gtrans.acdh.oeaw.ac.at/person__629.html
+https://d-nb.info/gnd/130554928|Lehmann|https://gtrans.acdh.oeaw.ac.at/person__929.html
+https://d-nb.info/gnd/127288139|Schulz, Hermann|https://gtrans.acdh.oeaw.ac.at/person__845.html
+https://d-nb.info/gnd/172782759|Hammerschmid, Josef|https://gtrans.acdh.oeaw.ac.at/person__687.html
+https://d-nb.info/gnd/118620657|Tandler, Julius|https://gtrans.acdh.oeaw.ac.at/person__876.html
+https://d-nb.info/gnd/130182907|Höfenmayer, Franz|https://gtrans.acdh.oeaw.ac.at/person__3554.html
 https://d-nb.info/gnd/1011780887|Hemala, Franz|https://gtrans.acdh.oeaw.ac.at/person__696.html
 https://d-nb.info/gnd/11861293X|Seipel, Ignaz|https://gtrans.acdh.oeaw.ac.at/person__857.html
+https://d-nb.info/gnd/13923795X|Proksch, Ferdinand|https://gtrans.acdh.oeaw.ac.at/person__3384.html
+https://d-nb.info/gnd/116250534|Pogatschnigg|https://gtrans.acdh.oeaw.ac.at/person__3566.html
+https://d-nb.info/gnd/120524880|Markus|https://gtrans.acdh.oeaw.ac.at/person__3900.html
+https://d-nb.info/gnd/132967233X|Rott|https://gtrans.acdh.oeaw.ac.at/person__828.html
+https://d-nb.info/gnd/125036337|Balling, Karl|https://gtrans.acdh.oeaw.ac.at/person__605.html
 https://de.wikipedia.org/wiki/August_Ansorge|Ansorge, August|https://gtrans.acdh.oeaw.ac.at/person__3451.html
+https://d-nb.info/gnd/118563483|Klug|https://gtrans.acdh.oeaw.ac.at/person__3614.html
 https://d-nb.info/gnd/1055020055|David, Anton|https://gtrans.acdh.oeaw.ac.at/person__632.html
+https://d-nb.info/gnd/1024399001|Feldmann, Johann|https://gtrans.acdh.oeaw.ac.at/person__647.html
 https://d-nb.info/gnd/13586237X|Banhans von, Karl|https://gtrans.acdh.oeaw.ac.at/person__3276.html
 https://d-nb.info/gnd/127523618|Beron, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__611.html
+https://d-nb.info/gnd/1352296683|Nuebel, Heinrich|https://gtrans.acdh.oeaw.ac.at/person__783.html
+https://d-nb.info/gnd/1250943825|Basta|https://gtrans.acdh.oeaw.ac.at/person__3677.html
 https://d-nb.info/gnd/118968831|Majster, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__761.html
+https://d-nb.info/gnd/1019652462|Stöger-Steiner von Steinstätten, Rudolf|https://gtrans.acdh.oeaw.ac.at/person__938.html
 https://d-nb.info/gnd/13586237X|von Banhans, Karl|https://gtrans.acdh.oeaw.ac.at/person__606.html
 https://d-nb.info/gnd/139554025|Frey, Josef|https://gtrans.acdh.oeaw.ac.at/person__657.html
-https://www.biographien.ac.at/oebl_2/152.pdf|Hainisch, Marianne|https://gtrans.acdh.oeaw.ac.at/person__3856.html
-https://www.deutsche-biographie.de/gnd116925272.html#ndbcontent|Höfler, Alois|https://gtrans.acdh.oeaw.ac.at/person__3857.html
-https://de.wikipedia.org/wiki/Sophie_G%C3%A4rtner|Gärtner, Sophie|https://gtrans.acdh.oeaw.ac.at/person__661.html
+https://d-nb.info/gnd/133566854|Howanski|https://gtrans.acdh.oeaw.ac.at/person__3660.html
+https://d-nb.info/gnd/1152826921|Semara|https://gtrans.acdh.oeaw.ac.at/person__3663.html
+https://d-nb.info/gnd/126944849|Zimmerl, Franz|https://gtrans.acdh.oeaw.ac.at/person__921.html
+https://d-nb.info/gnd/1158632797|Bittner|https://gtrans.acdh.oeaw.ac.at/person__3804.html
+https://d-nb.info/gnd/1226118887|Heumann|https://gtrans.acdh.oeaw.ac.at/person__699.html
+https://d-nb.info/gnd/116393289|Hainisch, Marianne|https://gtrans.acdh.oeaw.ac.at/person__3856.html
+https://d-nb.info/gnd/116925272|Höfler, Alois|https://gtrans.acdh.oeaw.ac.at/person__3857.html
+https://d-nb.info/gnd/1378677609|Gärtner, Sophie|https://gtrans.acdh.oeaw.ac.at/person__661.html
 https://d-nb.info/gnd/109590177X|Gruber, Josef|https://gtrans.acdh.oeaw.ac.at/person__675.html
 https://d-nb.info/gnd/120570769|Sever, Albert|https://gtrans.acdh.oeaw.ac.at/person__3583.html
 https://d-nb.info/gnd/129170828|Habsburg-Lothringen, Franz Salvator|https://gtrans.acdh.oeaw.ac.at/person__655.html
@@ -157,23 +225,39 @@ https://d-nb.info/gnd/1032213760|Schoiswohl, Michael|https://gtrans.acdh.oeaw.ac
 https://de.wikipedia.org/wiki/Erwin_Waihs|Waiss, Erwin|https://gtrans.acdh.oeaw.ac.at/person__895.html
 https://d-nb.info/gnd/12650041X|(von) Hock, Paul|https://gtrans.acdh.oeaw.ac.at/person__3860.html
 https://d-nb.info/gnd/11869684X|Grabmayr (von) Angerheim, Karl|https://gtrans.acdh.oeaw.ac.at/person__3858.html
-https://www.biographien.ac.at/oebl/oebl_F/Fries-Skene_Alfred_1870_1947.xml|Fries-Skene, Alfred|https://gtrans.acdh.oeaw.ac.at/person__3880.html
+https://d-nb.info/gnd/1146596855|Kikisch|https://gtrans.acdh.oeaw.ac.at/person__730.html
+https://d-nb.info/gnd/1117165930|Rodler|https://gtrans.acdh.oeaw.ac.at/person__825.html
+https://d-nb.info/gnd/1011357763|Eicha, Egon|https://gtrans.acdh.oeaw.ac.at/person__3866.html
+https://d-nb.info/gnd/144034190|Fries-Skene, Alfred|https://gtrans.acdh.oeaw.ac.at/person__3880.html
 https://www.myheritage.at/search-records?action=person&amp;siteId=124879041&amp;indId=37000083&amp;origin=profile|Hohenbruck, Oskar|https://gtrans.acdh.oeaw.ac.at/person__3868.html
+https://d-nb.info/gnd/1198943610|Ledochowski, Karl|https://gtrans.acdh.oeaw.ac.at/person__3874.html
+https://d-nb.info/gnd/119072882|Pipitz, Ernst|https://gtrans.acdh.oeaw.ac.at/person__3867.html
+https://d-nb.info/gnd/117424560|Skokan, Franz|https://gtrans.acdh.oeaw.ac.at/person__3879.html
+https://d-nb.info/gnd/109743881|Schachermayer|https://gtrans.acdh.oeaw.ac.at/person__3590.html
 https://d-nb.info/gnd/136489249|Glöckl, Leopoldine|https://gtrans.acdh.oeaw.ac.at/person__665.html
 https://d-nb.info/gnd/183216512|Grolig, Anton|https://gtrans.acdh.oeaw.ac.at/person__672.html
+https://d-nb.info/gnd/1340943255|Jenschik, Anton|https://gtrans.acdh.oeaw.ac.at/person__717.html
+https://d-nb.info/gnd/122895134|Witzmann, Franz|https://gtrans.acdh.oeaw.ac.at/person__914.html
 https://d-nb.info/gnd/138150397|Ambros, Karoline|https://gtrans.acdh.oeaw.ac.at/person__600.html
+https://d-nb.info/gnd/1343235340|Kerner, Karl|https://gtrans.acdh.oeaw.ac.at/person__726.html
+https://d-nb.info/gnd/129202827|Karasek, Franz|https://gtrans.acdh.oeaw.ac.at/person__722.html
 https://tools.wmflabs.org/persondata/p/Peter_Krützner|Krützner, Peter|https://gtrans.acdh.oeaw.ac.at/person__3391.html
+https://d-nb.info/gnd/1062181468|Zatka|https://gtrans.acdh.oeaw.ac.at/person__919.html
 https://d-nb.info/gnd/121750418|Habsburg-Lothringen, Ludwig Viktor|https://gtrans.acdh.oeaw.ac.at/person__3780.html
 https://d-nb.info/gnd/1042486425|Baechle, Josef von|https://gtrans.acdh.oeaw.ac.at/person__604.html
+https://d-nb.info/gnd/1034855239|Sobitschka|https://gtrans.acdh.oeaw.ac.at/person__863.html
+https://d-nb.info/gnd/129218421|Kotek, Georg|https://gtrans.acdh.oeaw.ac.at/person__740.html
+https://d-nb.info/gnd/1234157179|Wildner, Franz|https://gtrans.acdh.oeaw.ac.at/person__909.html
 https://d-nb.info/gnd/11683742X|Mataja, Viktor|https://gtrans.acdh.oeaw.ac.at/person__765.html
 https://d-nb.info/gnd/136375723|Gayer von, Edmund|https://gtrans.acdh.oeaw.ac.at/person__3490.html
 https://de.wikipedia.org/wiki/Franz_Held_(Politiker)|Held, Franz Xaver|https://gtrans.acdh.oeaw.ac.at/person__3498.html
 https://d-nb.info/gnd/118910930|Hussarek von Heinlein, Max|https://gtrans.acdh.oeaw.ac.at/person__3486.html
 https://d-nb.info/gnd/1025496779|Paul, Ludwig|https://gtrans.acdh.oeaw.ac.at/person__3491.html
-https://tools.wmflabs.org/persondata/p/Ferdinand_von_Wimmer|Wimmer von, Ferdinand|https://gtrans.acdh.oeaw.ac.at/person__3488.html
+https://d-nb.info/gnd/1225370043|Wimmer von, Ferdinand|https://gtrans.acdh.oeaw.ac.at/person__3488.html
+https://d-nb.info/gnd/1243994495|Schlesinger|https://gtrans.acdh.oeaw.ac.at/person__835.html
 https://de.wikipedia.org/wiki/Georg_G%C3%BCnther_(Generaldirektor)|Günther, Georg|https://gtrans.acdh.oeaw.ac.at/person__3331.html
-https://www.parlament.gv.at/WWER/PAD_00870/index.shtml|König, Berthold|https://gtrans.acdh.oeaw.ac.at/person__3332.html
+https://d-nb.info/gnd/128025085|König, Berthold|https://gtrans.acdh.oeaw.ac.at/person__3332.html
 https://d-nb.info/gnd/133568644|(von) Handel, Erasmus|https://gtrans.acdh.oeaw.ac.at/person__3859.html
 https://d-nb.info/gnd/121891100|Boschek, Anna|https://gtrans.acdh.oeaw.ac.at/person__618.html
-https://de.wikipedia.org/wiki/Raimund_Neunteufel|Neunteufel, Raimund|https://gtrans.acdh.oeaw.ac.at/person__782.html
+https://d-nb.info/gnd/126617023|Neunteufel, Raimund|https://gtrans.acdh.oeaw.ac.at/person__782.html
 https://d-nb.info/gnd/1029631514|Schauer von, Hugo|https://gtrans.acdh.oeaw.ac.at/person__3442.html
