@@ -27,41 +27,13 @@
                     </td>
                 </tr>
                 </xsl:if>
-                <xsl:if test="./tei:idno[@type='GND']/text()">
-                    <tr>
-                        <th>
-                            GND ID
-                        </th>
-                        <td>
-                            <a href="{./tei:idno[@type='GND']}" target="_blank">
-                                <xsl:value-of select="tokenize(./tei:idno[@type='GND'], '/')[last()]"/>
-                            </a>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:idno[@type='WIKIDATA']/text()">
-                    <tr>
-                        <th>
-                            Wikidata ID
-                        </th>
-                        <td>
-                            <a href="{./tei:idno[@type='WIKIDATA']}" target="_blank">
-                                <xsl:value-of select="tokenize(./tei:idno[@type='WIKIDATA'], '/')[last()]"/>
-                            </a>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:idno[@type='GEONAMES']/text()">
-                    <tr>
-                        <th>
-                            Geonames ID
-                        </th>
-                        <td>
-                            <a href="{./tei:idno[@type='GEONAMES']}" target="_blank">
-                                <xsl:value-of select="tokenize(./tei:idno[@type='GEONAMES'], '/')[4]"/>
-                            </a>
-                        </td>
-                    </tr>
+                <xsl:if test="./tei:idno">
+                    <th>Links</th>
+                    <td>
+                        <xsl:for-each select="./tei:idno">
+                            <a href="{.}"><xsl:value-of select="."/></a>
+                        </xsl:for-each>
+                    </td>
                 </xsl:if>
                 <xsl:if test="./tei:noteGrp/tei:note[@type='mentions']">
                     <tr>
