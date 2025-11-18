@@ -1,8 +1,8 @@
 # project specific
 *.html
+foo.*
 html/*.xml
 /html/oai-pmh
-/saxon
 data/imprint.xml
 
 data/indices/*.xml

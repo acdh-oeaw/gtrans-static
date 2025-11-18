@@ -34,24 +34,18 @@ jobs:
       REGISTRY: ghcr.io
       IMAGE_NAME: ${{ github.repository }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Install Saxon, Ant and Fundament
-        run: |
-          apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
-          ./shellscripts/dl_saxon.sh
-      - name: install python things
-        run: pip install -r requirements.txt
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v7
       - name: Fetch the data
-        run: ./fetch_data.sh
+        run: ./shellscripts/fetch_data.sh
       - name: Build the app
         run: ant
       - name: Populate Search Index
-        run: python make_ts_index.py
+        run: uv run pyscripts/make_ts_index.py
       - name: Calendar data
-        run: python make_calendar_data.py
+        run: uv run pyscripts/make_calendar_data.py
       - name: OAI-PMH
         run: python oai-pmh/make_files.py 
       - name: Setup Pages
