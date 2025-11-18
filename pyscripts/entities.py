@@ -34,13 +34,14 @@ for x in doc.any_xpath(".//tei:person[@xml:id]"):
     ent_id = get_xmlid(x)
     match = data[ent_id]
     ngroup = ET.SubElement(x, "{http://www.tei-c.org/ns/1.0}noteGrp")
+    ngroup.attrib["n"] = str(len(match["docs"]))
     for y in match["docs"]:
         note = ET.SubElement(
             ngroup, "{http://www.tei-c.org/ns/1.0}note", type="mentions"
         )
         note.attrib["target"] = y["f_name"]
         note.text = y["doc_title"]
-
+ET.indent(doc.any_xpath(".")[0], space="   ")
 doc.tree_to_file(listperson)
 
 
