@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-md-2 text-end" >
                         <div>
-                            <a href="https://www.oeaw.ac.at/acdh/acdh-ch-home">
+                            <a href="https://www.oeaw.ac.at/acdh/acdh-home">
                                 <img src="images/acdhch_logo.png" class="acdh-logo"></img>
                             </a>
                         </div>
@@ -42,7 +42,7 @@
                         <p>
                             ACDH-CH
                             <br></br>
-                                Austrian Centre for Digital Humanities and Cultural Heritage
+                                Austrian Centre for Digital Humanities
                                 <br></br>
                                 Österreichische Akademie der Wissenschaften
                         </p>
@@ -54,7 +54,7 @@
                         <p>
                             T: +43 1 51581-2200
                             <br></br>
-                                E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
+                                E: <a href="mailto:acdh-helpdesk@oeaw.ac.at">acdh-helpdesk@oeaw.ac.at</a>
                         </p>
                     </div>
                 </div>
