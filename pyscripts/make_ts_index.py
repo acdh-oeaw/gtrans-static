@@ -1,9 +1,9 @@
 import glob
 import os
 
-from typesense.api_call import ObjectNotFound
+from acdh_cfts_pyutils import CFTS_COLLECTION
+from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_cidoc_pyutils import extract_begin_end
-from acdh_cfts_pyutils import TYPESENSE_CLIENT as client, CFTS_COLLECTION
 from acdh_tei_pyutils.tei import TeiReader
 from acdh_tei_pyutils.utils import (
     extract_fulltext,
@@ -11,7 +11,7 @@ from acdh_tei_pyutils.utils import (
     make_entity_label,
 )
 from tqdm import tqdm
-
+from typesense.api_call import ObjectNotFound
 
 files = glob.glob("./data/editions/*.xml")
 tag_blacklist = ["{http://www.tei-c.org/ns/1.0}abbr"]
@@ -28,6 +28,11 @@ except ObjectNotFound:
 current_schema = {
     "name": COLLECTION_NAME,
     "enable_nested_fields": True,
+    "metadata": {
+        "owners": ["Peter Andorfer"],
+        "description": "https://github.com/acdh-oeaw/gtrans-static",
+        "service_ids": [10758],
+    },
     "fields": [
         {"name": "id", "type": "string", "sort": True},
         {"name": "rec_id", "type": "string", "sort": True},
@@ -66,9 +71,7 @@ for x in tqdm(files, total=len(files)):
         continue
     record["id"] = os.path.split(x)[-1].replace(".xml", "")
     cfts_record["id"] = record["id"]
-    cfts_record[
-        "resolver"
-    ] = f"https://gtrans.acdh.oeaw.ac.at/{record['id']}.html"
+    cfts_record["resolver"] = f"https://gtrans.acdh.oeaw.ac.at/{record['id']}.html"
     record["rec_id"] = os.path.split(x)[-1].replace(".xml", "")
     cfts_record["rec_id"] = record["rec_id"]
     record["title"] = extract_fulltext(
